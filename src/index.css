@@ -8,6 +8,10 @@ body{
   font-family: 'Roboto', sans-serif;
   color: white;
 }
+a{
+  text-decoration: none;
+  color: white;
+}
 .container{
-  padding: 0 calc((100vw - 1100px) / 2);
+  padding: 0 calc((100vw - 1200px) / 2);
 }
