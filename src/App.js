@@ -38,7 +38,6 @@ const App = () => {
             return fetch('https://openapi.programming-hero.com/api/quiz')
           },
           element:<Statistics/>,
-          errorElement:<h1>Bal amni akta leko na</h1>
 
         },
       ]

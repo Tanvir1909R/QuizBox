@@ -1,0 +1,29 @@
+.blogWrapper{
+    padding: 1rem;
+}
+.blogWrapper h1{
+    text-align: center;
+    margin: 20px 0 50px 0;
+    color: var(--themeColor);
+}
+
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+}
+.blog{
+    padding: 1rem;
+    border: 1px solid var(--themeColor);
+    border-radius: 8px;
+    color: var(--themeColor);
+}
+.blog h2{
+    margin-bottom: 30px;
+}
+
+@media(max-width:760px){
+    .blogs{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
