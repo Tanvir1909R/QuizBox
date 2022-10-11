@@ -35,3 +35,19 @@
     grid-gap: 30px;
     margin: 120px 0px;
 }
+@media(max-width:760px){
+    .allQuiz{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .aboutSite{
+        flex-direction: column;
+    }
+    .aboutImg{
+        text-align: center;
+    }
+}
+@media(max-width:600px){
+    .allQuiz{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
