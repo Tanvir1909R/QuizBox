@@ -1,10 +1,25 @@
 import React from 'react'
+import { useLoaderData } from 'react-router-dom'
+import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer } from 'recharts';
 import './statistics.css'
 
 const Statistics = () => {
+  const { data }= useLoaderData()
   return (
     <section>
-        <h1>all Statistics</h1>
+        <div className="container">
+          <div className="barWrapper">
+            <h1>statistics of quizzes</h1>
+            <ResponsiveContainer width="90%" height={400}>
+            <BarChart data={data}>
+            <XAxis dataKey="name" tick={{fill:'white'}} />
+            <YAxis dataKey="total" tick={{fill:'white'}} />
+            <Tooltip />
+            <Bar dataKey="total" fill="#3cb6de" />
+            </BarChart>
+            </ResponsiveContainer>
+          </div>
+        </div>
     </section>
   )
 }
