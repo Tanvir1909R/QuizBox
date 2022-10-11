@@ -1,0 +1,14 @@
+.option{
+    color: var(--themeColor);
+    background-color: transparent;
+    border: 1px solid var(--themeColor);
+    font-size: 1.1rem;
+    padding: 2rem 3rem;
+    cursor: pointer;
+    transition: all .3s ease;
+    border-radius: 8px;
+}
+.option:hover{
+    background-color: #3cb6de9e;
+    color: white;
+}
