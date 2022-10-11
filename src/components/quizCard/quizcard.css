@@ -1,0 +1,31 @@
+.quizCard{
+    border: 2px solid var(--themeColor);
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.quizCardImg img{
+    width: 100%;
+
+}
+.quizCardDesc h3{
+    font-weight: 300;
+    margin: 5px 0;
+}
+
+.quizCardDesc a{
+    background-color: transparent;
+    display: block;
+    border: 1px solid var(--themeColor);
+    color: white;
+    font-size: 1rem;
+    padding: .7rem 1rem;
+    margin: 5px 0;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.quizCardDesc a:hover{
+    background-color: var(--themeColor);
+}
