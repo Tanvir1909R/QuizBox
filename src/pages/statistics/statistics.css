@@ -6,3 +6,11 @@
     margin: 20px 0 80px 0;
     color: var(--themeColor);
 }
+.bar{
+    padding: 0 10rem;
+}
+@media(max-width:760px){
+    .bar{
+        padding: 0 2rem;
+    }
+}

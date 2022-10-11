@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import React from "react";
 import { useLoaderData } from "react-router-dom";
 import Quiz from "../quiz/Quiz";
 import "./quizzes.css";

@@ -26,6 +26,7 @@ const App = () => {
             return fetch(` https://openapi.programming-hero.com/api/quiz/${params.quizId}`)
           },
           element: <Quizzes/>,
+          errorElement:<Error/>
         },
         {
           path:'/blog',
@@ -36,14 +37,16 @@ const App = () => {
           loader: async ()=>{
             return fetch('https://openapi.programming-hero.com/api/quiz')
           },
-          element:<Statistics/>
+          element:<Statistics/>,
+          errorElement:<h1>Bal amni akta leko na</h1>
+
         },
-        {
-          path:'*',
-          element:<Error/>
-        }
       ]
     },
+    {
+      path:'/*',
+      element:<Error/>
+    }
   ])
   return (
     <>
