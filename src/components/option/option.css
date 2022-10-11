@@ -8,7 +8,14 @@
     transition: all .3s ease;
     border-radius: 8px;
 }
+.option p{
+    pointer-events: none;
+}
 .option:hover{
+    background-color: #3cb6de9e;
+    color: white;
+}
+.optionActive{
     background-color: #3cb6de9e;
     color: white;
 }
