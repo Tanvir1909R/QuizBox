@@ -1,32 +1,9 @@
-
+.quizWrapper{
+    padding: 1rem;
+}
 .quizWrapper .quizTitle{
     text-align: center;
     margin: 60px 0;
     font-weight: bold;
     color: var(--themeColor);
-}
-
-.correct{
-    background-color: greenyellow;
-    color: black;
-}
-.wrong{
-    background-color: red;
-    color: white;
-}
-
-.toast{
-    position: fixed;
-    top: 130px;
-    right: 90px;
-    padding: 1rem;
-    border-radius: 8px;
-    font-size: .8rem;
-    transition: all .3s ease;
-    transform: scale(0);
-    opacity: 0;
-}
-.toastActive{
-    transform: scale(1);
-    opacity: 1;
 }
