@@ -37,6 +37,9 @@
 }
 
 @media (max-width:760px){
+    .eye{
+        width: 20px;
+    }
     .question h1{
         font-size: 1.3rem;
     }
